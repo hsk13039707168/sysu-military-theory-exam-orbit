@@ -1,0 +1,61 @@
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+.nvim.lua
+.history/
+
+# ---------- Node (optional tooling / CI) ----------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.prettiercache
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# ---------- Build output ----------
+dist/
+build/
+out/
+_site/
+.cache/
+*.min.html
+
+# ---------- Local data / user progress ----------
+# 浏览器导出的本地学习数据，请勿提交
+*.local.json
+*.local.html
+mt.stats.json
+progress-*.json
+data-backup/
+
+# ---------- Secrets ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ---------- Temp ----------
+tmp/
+temp/
+*.tmp
+*.bak
+*.log

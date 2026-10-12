@@ -1,0 +1,28 @@
+# 默认按文本自动换行
+* text=auto eol=lf
+
+# 代码
+*.js   text diff=javascript
+*.css  text diff=css
+*.html text diff=html
+*.md   text diff=markdown
+*.json text
+*.yml  text
+
+# 二进制
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.doc  binary
+*.docx binary
+*.xls  binary
+*.xlsx binary
+
+# 许可证与文档保持原样
+LICENSE       text eol=lf
+README.md     text eol=lf
+CHANGELOG.md  text eol=lf
