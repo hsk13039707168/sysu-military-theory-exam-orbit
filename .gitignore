@@ -59,3 +59,8 @@ temp/
 *.tmp
 *.bak
 *.log
+
+# ---------- 一次性校验脚本产物 ----------
+verify.js
+verify-report.txt
+使用指南-提取文本.txt
