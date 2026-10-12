@@ -1,658 +1,449 @@
 {
   "tool": "upload_resources.py",
   "version": "1.1.0",
-  "config": {
-    "source": "C:\\Users\\Lenovo\\Desktop\\AAA\\学习与规划\\军理",
-    "repo": "C:\\Users\\Lenovo\\WorkBuddy\\2026-10-12-12-18-44\\sysu-mil-theory-exam-orbit",
-    "repo_slug": "hsk13039707168/sysu-military-theory-exam-orbit",
-    "branch": "main",
-    "dest_prefix": "resources",
-    "retries": 3,
-    "backoff": 2.0,
-    "dry_run": false,
-    "committed": false,
-    "generated_at": "2026-10-12 12:35:22"
-  },
+  "source": "C:\\Users\\Lenovo\\Desktop\\AAA\\学习与规划\\军理",
+  "repo_slug": "hsk13039707168/sysu-military-theory-exam-orbit",
+  "branch": "main",
+  "dest_prefix": "resources",
+  "committed": true,
+  "generated_at": "2026-10-12 12:41:33",
   "stats": {
     "scanned": 63,
-    "candidates": 0,
-    "uploaded": 0,
-    "skipped": 63,
+    "candidates": 58,
+    "uploaded": 58,
+    "skipped": 5,
     "failed": 0,
-    "bytes_uploaded": 0,
-    "bytes_skipped": 120604418
+    "bytes_uploaded": 118074882,
+    "bytes_skipped": 2516582
   },
-  "duplicate_groups": {},
+  "duplicate_groups": {
+    "3c721e3d1ef133ea7f923a46a5a5b30732de81d096c6b8474ae4618448553ba9": [
+      "2021A.pdf",
+      "军理考试资料整理c\\军理考试资料整理c\\题库\\2021级军事理论a卷.pdf"
+    ],
+    "9a96b7d7bdf588f9c3aad4d9dc37cebce7a5f7e0cbf072d19afe5e3ad42f30d6": [
+      "2021B.pdf",
+      "军理考试资料整理c\\军理考试资料整理c\\题库\\2021级军事理论b卷.pdf"
+    ],
+    "aa1d57ef385de318df3b8c797c913a4406442af59516cc269f3960e2d8146e21": [
+      "主观题.pdf",
+      "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\中大军理新教材主观题速成(1).pdf"
+    ],
+    "f31bc04989bc3319d895a0c0f7903c656eac15b6a77c3490d80deafa22d25d5b": [
+      "真题解析版\\24军事理论A卷_FVUOEY.pdf",
+      "真题解析版\\24鍐涗簨鐞嗚A鍗穇FVUOEY.pdf"
+    ],
+    "cd297226dc1fcfaa875363eb7edb77f3783ba7850f4cab3cc853f0325792428d": [
+      "真题解析版\\24军事理论B卷_FVUOEY.pdf",
+      "真题解析版\\24鍐涗簨鐞嗚B鍗穇FVUOEY.pdf"
+    ]
+  },
   "files": [
     {
-      "rel_src": "2021A.pdf",
       "repo_path": "resources/2021A.pdf",
+      "rel_src": "2021A.pdf",
       "size": 354348,
       "sha256": "3c721e3d1ef133ea7f923a46a5a5b30732de81d096c6b8474ae4618448553ba9",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2021B.pdf",
       "repo_path": "resources/2021B.pdf",
+      "rel_src": "2021B.pdf",
       "size": 130469,
       "sha256": "9a96b7d7bdf588f9c3aad4d9dc37cebce7a5f7e0cbf072d19afe5e3ad42f30d6",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2022A.pdf",
       "repo_path": "resources/2022A.pdf",
+      "rel_src": "2022A.pdf",
       "size": 3511996,
       "sha256": "bebd49aeaece93a2814996a93e5bad99bd50fcc673218c7e7ef6ac5c4d8443ac",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2022B.pdf",
       "repo_path": "resources/2022B.pdf",
+      "rel_src": "2022B.pdf",
       "size": 3754743,
       "sha256": "8f5f01ff202540538d96bf2afc595b3bf8d1203ba6b6736b1e6ca733c7b5d040",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2023B.pdf",
       "repo_path": "resources/2023B.pdf",
+      "rel_src": "2023B.pdf",
       "size": 2019569,
       "sha256": "fa3b8b74617061717e739f2c90d742682b996329b72e28ffe653322524a28830",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2023C.pdf",
       "repo_path": "resources/2023C.pdf",
+      "rel_src": "2023C.pdf",
       "size": 1926703,
       "sha256": "d32f9efeb4a93130cde42a573e21447f2cba42ab08fa6d0fa8961bac9596b3be",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2024A.pdf",
       "repo_path": "resources/2024A.pdf",
+      "rel_src": "2024A.pdf",
       "size": 1562188,
       "sha256": "76050241fefd2c43d3bb55ae5d1bb778131408b815203c5e375ecec899618d66",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2024B.pdf",
       "repo_path": "resources/2024B.pdf",
+      "rel_src": "2024B.pdf",
       "size": 1523353,
       "sha256": "8c29046788f87e912be3b164397ab83e1316e33c69d83292265872168dd61cf5",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "2024C.pdf",
       "repo_path": "resources/2024C.pdf",
+      "rel_src": "2024C.pdf",
       "size": 1470083,
       "sha256": "4263303b0962d69159fd2a3310569f60deeebf64ba6b71beea6db6f4586b0c3f",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "主观题.pdf",
       "repo_path": "resources/主观题.pdf",
+      "rel_src": "主观题.pdf",
       "size": 294443,
       "sha256": "aa1d57ef385de318df3b8c797c913a4406442af59516cc269f3960e2d8146e21",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军事理论模拟考试系统 · ORBIT 02(1).html",
       "repo_path": "resources/军事理论模拟考试系统 · ORBIT 02(1).html",
+      "rel_src": "军事理论模拟考试系统 · ORBIT 02(1).html",
       "size": 764198,
       "sha256": "5147d53c20fa596ccee7950acc0a70e92aac81a132aeda7b3a4fce88f706d4ac",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军事理论模拟考试系统 · ORBIT 02.html",
       "repo_path": "resources/军事理论模拟考试系统 · ORBIT 02.html",
+      "rel_src": "军事理论模拟考试系统 · ORBIT 02.html",
       "size": 765585,
       "sha256": "122530906dad3f525d21deccc2435f2b2673c909d48458fe35dfcbe3cb1c826d",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理900题题库.docx",
       "repo_path": "resources/军理900题题库.docx",
+      "rel_src": "军理900题题库.docx",
       "size": 93759,
       "sha256": "26b7c11b78e87f89927b368523785a855ef5bc5821cfe91777d7a001937b382a",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c.zip",
       "repo_path": "resources/军理考试资料整理c.zip",
+      "rel_src": "军理考试资料整理c.zip",
       "size": 41715418,
       "sha256": "ed93b1a1beda2ef7ccde61ac09f9d8c0c3d796f056c38fd58fc73d37b2defc00",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/1.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/1.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\1.jpg",
       "size": 3232944,
       "sha256": "56f7e586ca7ddcda9e2e73f1fabf356644b13cf3d7986abad610611e373454e5",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/使用指南.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/使用指南.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\使用指南.docx",
       "size": 14673,
       "sha256": "56eb45a1f171a38111f193b8d688bef2e21a2d3de4abf28d7cbb82197ccf76b5",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230827.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230827.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230827.jpg",
       "size": 739802,
       "sha256": "288ba133f4c60c0e189ae6ec956fe48bf595e08ea8634b10af2dfee0295fc9b3",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230846.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230846.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230846.jpg",
       "size": 866699,
       "sha256": "c96a1a759cca185ff9c3def68655338ab037a0051acb0a2bc14f364c48e68907",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230852.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230852.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230852.jpg",
       "size": 398285,
       "sha256": "edab8fcd839df44bee56a69ad31088cab8f751c10ed22aca952434fe92087fba",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230858.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230858.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230858.jpg",
       "size": 298886,
       "sha256": "7622765d4d2950742985c3b543ac34150f8b1f096825d6ecaf0629795e953ba5",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230905.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230905.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230905.jpg",
       "size": 385387,
       "sha256": "c10f7f6021ee50b78e45c1db3a012efd0fb89ce88b732017dc7dbd21e0797129",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230910.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230910.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230910.jpg",
       "size": 768550,
       "sha256": "a100a0889df16a538a1d9cf2617798fcce532c46d7b0c838e62b37227b6d61fc",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230915.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230915.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230915.jpg",
       "size": 771741,
       "sha256": "51eda74f265fe0baf6c3240972b939382e8e6431885c6d8c97258cdf61412360",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230920.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230920.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230920.jpg",
       "size": 717217,
       "sha256": "bca11a74e3438fc19f126f65fd4d01928967117a39a3e7a631f44c632fb702a7",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230948.jpg",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/图片（知识点，使用指南，往届真题）/微信图片_20251013230948.jpg",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\图片（知识点，使用指南，往届真题）\\微信图片_20251013230948.jpg",
       "size": 339542,
       "sha256": "fa54fef1c645ea0231318e3c8c6ca0c9f9d683f731760e958e2bff6c8ab0e096",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/条令条例/中国人民解放军内务条令.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/条令条例/中国人民解放军内务条令.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\条令条例\\中国人民解放军内务条令.docx",
       "size": 81564,
       "sha256": "f41901f210038dfa9d7c839ceeb19eb883bdab3ba6b003ae51a514254bb4421a",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/条令条例/中国人民解放军纪律条令.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/条令条例/中国人民解放军纪律条令.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\条令条例\\中国人民解放军纪律条令.docx",
       "size": 58233,
       "sha256": "701c71cfd0196636f0d012f7f09eb690352f5f30a80e39d966c61a779cebc4c6",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/条令条例/中国人民解放军队列条令.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/条令条例/中国人民解放军队列条令.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\条令条例\\中国人民解放军队列条令.docx",
       "size": 60699,
       "sha256": "b5cf82a437dce6ae16775af5cb494ac4f95b5e01271d3fcc2d624f68e22d53a7",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/中大军理新教材主观题速成(1).pdf",
-      "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/中大军理新教材主观题速成(1).pdf",
-      "size": 294443,
-      "sha256": "aa1d57ef385de318df3b8c797c913a4406442af59516cc269f3960e2d8146e21",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
-    },
-    {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/中大军理新教材重点内容.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/中大军理新教材重点内容.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\中大军理新教材重点内容.docx",
       "size": 116265,
       "sha256": "4888caa3383d74581a46305e921c6051324425872977d0abd4d6f5ad76f18554",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论名词解释.pdf",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论名词解释.pdf",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\军事理论名词解释.pdf",
       "size": 278503,
       "sha256": "12e18530b1d1a48d1b2ac2b18bd3938c66ff20f36a491ce8d7b61c19505db6c3",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论总结-中大专版.pdf",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论总结-中大专版.pdf",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\军事理论总结-中大专版.pdf",
       "size": 1059270,
       "sha256": "d9821f065e2640f8c12f8fb686e35f148a1227e8dca2908a4e9dc900bfdf4db7",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论总结.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论总结.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\军事理论总结.docx",
       "size": 31689,
       "sha256": "bbdef475481d391a251a06f158d26a4a8fa9c6b0ee81daf51521aa1661606bf6",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论考试复习要点.pdf",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/军事理论考试复习要点.pdf",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\军事理论考试复习要点.pdf",
       "size": 189828,
       "sha256": "b07dfe94627eea98d24d5fb9d8e9e04b369bdee52c705a61a6d93a18a733958f",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/军理复习.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/军理复习.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\军理复习.docx",
       "size": 11252,
       "sha256": "6e5b802d78e4369a440aae31b0d79e40c54f9793f607ff924a7c4deb1d0dd535",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/军理复习题纲(1).doc",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/军理复习题纲(1).doc",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\军理复习题纲(1).doc",
       "size": 404992,
       "sha256": "d82d0224a8710acb645a41d4178ff1801c8a6a67e045bd89098480913d2af06e",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/理论知识汇总/复习要点.doc",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/理论知识汇总/复习要点.doc",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\理论知识汇总\\复习要点.doc",
       "size": 55296,
       "sha256": "544d102a244d7d9d64e31b585e87dd9c39c91023480800bdf046bfb7cd3258df",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/课本 （老版本电子版）/大学军事课教程（试用带水印） (1).pdf",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/课本 （老版本电子版）/大学军事课教程（试用带水印） (1).pdf",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\课本 （老版本电子版）\\大学军事课教程（试用带水印） (1).pdf",
       "size": 31866442,
       "sha256": "16556f7e786e84377f2e36bd06295250717b053ca81a33c092907490a4318154",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/10.3军理200单选+100多选.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/10.3军理200单选+100多选.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\10.3军理200单选+100多选.docx",
       "size": 63528,
       "sha256": "5aba64c211bee80c88f6d18030ce19430061af5616d266206640e4feca31eaf5",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/2021级军事理论a卷.pdf",
-      "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/2021级军事理论a卷.pdf",
-      "size": 354348,
-      "sha256": "3c721e3d1ef133ea7f923a46a5a5b30732de81d096c6b8474ae4618448553ba9",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
-    },
-    {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/2021级军事理论b卷.pdf",
-      "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/2021级军事理论b卷.pdf",
-      "size": 130469,
-      "sha256": "9a96b7d7bdf588f9c3aad4d9dc37cebce7a5f7e0cbf072d19afe5e3ad42f30d6",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
-    },
-    {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/中大军理新教材主观题速成.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/中大军理新教材主观题速成.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\中大军理新教材主观题速成.docx",
       "size": 25679,
       "sha256": "5c78a5e0c882157e9caef176025ac91d6debf94a91f99a1772fc6535fd668b35",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/中山大学军理题库900题(3).pdf",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/中山大学军理题库900题(3).pdf",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\中山大学军理题库900题(3).pdf",
       "size": 2322636,
       "sha256": "b3330909212b786c44ac8c4b5cc07ddc123708d7c22f5c1f928cebb9d1a91f98",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/军事理论题库（按章节）.doc",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/军事理论题库（按章节）.doc",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\军事理论题库（按章节）.doc",
       "size": 135168,
       "sha256": "60c8d0f364c2dea812c1d6852c94cd64d13891738b365443a3b86146eb47eaba",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/军理.pdf",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/军理.pdf",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\军理.pdf",
       "size": 213615,
       "sha256": "c1ce4a675672543632200adaa9708a6117f861a39e78c805d527bb41a4690857",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/军理200题题库.doc",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/军理200题题库.doc",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\军理200题题库.doc",
       "size": 110592,
       "sha256": "6b3670eef4108953bf662a294ce6c31d4099e921927af582ec2bac1bd262dd94",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/军理900题题库.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/军理900题题库.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\军理900题题库.docx",
       "size": 88090,
       "sha256": "b0f98cfdf6dc39b3989e36e05e9c278e3543da4096a5b48c3e0fd134f284a3e6",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/军理试题（最新版）.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/军理试题（最新版）.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\军理试题（最新版）.docx",
       "size": 133982,
       "sha256": "07f66c0a9f1cde39da8f77afcc0d835b66c17e4029ac2dd78d53f90168a1fe98",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "军理考试资料整理c/军理考试资料整理c/题库/题库.docx",
       "repo_path": "resources/军理考试资料整理c/军理考试资料整理c/题库/题库.docx",
+      "rel_src": "军理考试资料整理c\\军理考试资料整理c\\题库\\题库.docx",
       "size": 65679,
       "sha256": "83d205f2d46fb862f2deb02ace5879815e5be901f96e43aa53963db4e7f67af6",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/24军事理论A卷-解析版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/24军事理论A卷-解析版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\24军事理论A卷-解析版_FVUOEY.pdf",
       "size": 1297387,
       "sha256": "f211a520858aec3295f34f5b8a8e8c28a5299560515318838636cb68b645ba0d",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/24军事理论A卷_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/24军事理论A卷_FVUOEY.pdf",
+      "rel_src": "真题解析版\\24军事理论A卷_FVUOEY.pdf",
       "size": 881978,
       "sha256": "f31bc04989bc3319d895a0c0f7903c656eac15b6a77c3490d80deafa22d25d5b",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/24军事理论B卷-解析版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/24军事理论B卷-解析版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\24军事理论B卷-解析版_FVUOEY.pdf",
       "size": 1409839,
       "sha256": "32fc0635a26e03f73809b8d48c7416119ad9e2fef2d83e553ae9b0c4fa267ba8",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/24军事理论B卷_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/24军事理论B卷_FVUOEY.pdf",
+      "rel_src": "真题解析版\\24军事理论B卷_FVUOEY.pdf",
       "size": 868298,
       "sha256": "cd297226dc1fcfaa875363eb7edb77f3783ba7850f4cab3cc853f0325792428d",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/24鍐涗簨鐞嗚A鍗穇FVUOEY.pdf",
-      "repo_path": "resources/真题解析版/24鍐涗簨鐞嗚A鍗穇FVUOEY.pdf",
-      "size": 881978,
-      "sha256": "f31bc04989bc3319d895a0c0f7903c656eac15b6a77c3490d80deafa22d25d5b",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
-    },
-    {
-      "rel_src": "真题解析版/24鍐涗簨鐞嗚B鍗穇FVUOEY.pdf",
-      "repo_path": "resources/真题解析版/24鍐涗簨鐞嗚B鍗穇FVUOEY.pdf",
-      "size": 868298,
-      "sha256": "cd297226dc1fcfaa875363eb7edb77f3783ba7850f4cab3cc853f0325792428d",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
-    },
-    {
-      "rel_src": "真题解析版/军事理论A卷-空白版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/军事理论A卷-空白版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\军事理论A卷-空白版_FVUOEY.pdf",
       "size": 810758,
       "sha256": "a1f090a76bdecdf41abef77b54343155e7ef09a9ace612eec9067b912d718c22",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/军事理论A卷-解析版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/军事理论A卷-解析版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\军事理论A卷-解析版_FVUOEY.pdf",
       "size": 1197691,
       "sha256": "c95e2be6259460bbc7a1dcaad4eb23fbab16b957c4e705131132e4743860f1c4",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/军事理论B卷-空白版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/军事理论B卷-空白版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\军事理论B卷-空白版_FVUOEY.pdf",
       "size": 898570,
       "sha256": "48815ad628304cb38eee5b1cdaed118becda7998508779150c6ad210c07f3c96",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/军事理论B卷-解析版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/军事理论B卷-解析版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\军事理论B卷-解析版_FVUOEY.pdf",
       "size": 1224795,
       "sha256": "ee1e94004fc2c620102cb542790d51547d88d031fa212b313a0246fac3e53fff",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/军事理论C卷-空白版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/军事理论C卷-空白版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\军事理论C卷-空白版_FVUOEY.pdf",
       "size": 905066,
       "sha256": "20298517ddbc8f18da52d21b0ba98be3ddca761ff3d1ebaa0943003bc5ae108c",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "真题解析版/军事理论C卷-解析版_FVUOEY.pdf",
       "repo_path": "resources/真题解析版/军事理论C卷-解析版_FVUOEY.pdf",
+      "rel_src": "真题解析版\\军事理论C卷-解析版_FVUOEY.pdf",
       "size": 1243083,
       "sha256": "80ec7d942af94e6634b123cba81c91f53b7c4bcdf152b384e1db1150d697ce47",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "知识点提纲.pdf",
       "repo_path": "resources/知识点提纲.pdf",
+      "rel_src": "知识点提纲.pdf",
       "size": 797257,
       "sha256": "7f521ff6737b03c2c4b159360d7f4d9989b87653fd4573f3629e787962b15c16",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     },
     {
-      "rel_src": "知识点提纲2.pdf",
       "repo_path": "resources/知识点提纲2.pdf",
+      "rel_src": "知识点提纲2.pdf",
       "size": 746577,
       "sha256": "551b9ee8200495c3bb47ad7a0616a3f1916b0a036e4da20d5bbf592fb148604e",
-      "status": "skipped",
-      "reason": "仓库已存在相同内容",
-      "attempts": 1,
-      "elapsed_ms": 0
+      "status": "uploaded"
     }
   ]
 }
